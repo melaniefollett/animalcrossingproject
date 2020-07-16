@@ -1,0 +1,41 @@
+CREATE TABLE villagers (
+  name VARCHAR(255),
+  species VARCHAR(255),
+  gender VARCHAR(255),
+  personality VARCHAR(255),
+  hobby VARCHAR(255),
+  birthday VARCHAR(255),
+  catchphrase VARCHAR(255),
+  favorite_song VARCHAR(255),
+  style_1 VARCHAR(255),
+  style_2 VARCHAR(255),
+  color_1 VARCHAR(255),
+  color_2 VARCHAR(255),
+  wallpaper VARCHAR(255),
+  flooring VARCHAR(255),
+  furniture_list VARCHAR(255),
+  filename VARCHAR(255),
+  unique_id VARCHAR(255) PRIMARY KEY NOT NULL
+);
+
+CREATE TABLE fashion (
+  name VARCHAR(255),
+  variation VARCHAR(255),
+  diy_craftable VARCHAR(255),
+  buy_price VARCHAR(255),
+  sell_price VARCHAR(255),
+  color_1 VARCHAR(255),
+  color_2 VARCHAR(255),
+  size VARCHAR(255),
+  source VARCHAR(255),
+  seasonal_availability VARCHAR(255),
+  mannequin_piece VARCHAR(255),
+  version VARCHAR(255),
+  style VARCHAR(255),
+  label_themes VARCHAR(255),
+  villager_equippable VARCHAR(255),
+  catalog VARCHAR(255),
+  filename VARCHAR(255),
+  internal_id VARCHAR(255),
+  unique_id VARCHAR(255) PRIMARY KEY NOT NULL
+);
